@@ -1,0 +1,89 @@
+/* {
+    border: black solid 1px;
+}*/
+h1 {
+    font-family: Roboto, sans-serif;
+    color:#497174;
+    font-size: 3rem;
+    border-bottom: #EB6440 solid 10px;
+    width: 75%;
+    padding-bottom: 1rem;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: Roboto, sans-serif;
+    color: #497174;
+    font-size: 2rem;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    color: #497174;
+}
+
+nav {
+    list-style-type: none;
+    color: #497174;
+    font-family: Roboto, sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav li {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-left:#497174 solid 4px;
+}
+
+li {
+    color: #497174;
+    font-size: 1rem;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: #D6E4E5;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.left-column {
+    width: 45%;
+}
+
+.about {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    padding-right: 7rem;
+}
+
+.projects {
+    width: 45%;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.skill-list li {
+    list-style-type: none;
+    margin-right: 1.2rem;
+}
+
+img {
+    height: 2rem;
+    width: 2rem;
+}
+
+
