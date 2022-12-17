@@ -1,3 +1,4 @@
+
  /*{
     border: black solid 1px;
 }*/
@@ -197,64 +198,88 @@ main {
 }
 
 
+h1 {
+    font-family: Roboto, sans-serif;
+    color:#497174;
+    font-size: 3rem;
+    border-bottom: #EB6440 solid 10px;
+    width: 75%;
+    padding-bottom: 1rem;
+    margin-bottom: 0px;
+}
 
+h2 {
+    font-family: Roboto, sans-serif;
+    color: #497174;
+    font-size: 2rem;
+}
 
+p {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    color: #497174;
+}
 
+nav {
+    list-style-type: none;
+    color: #497174;
+    font-family: Roboto, sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
 
+.nav li {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-left:#497174 solid 4px;
+}
 
+li {
+    color: #497174;
+    font-size: 1rem;
+    font-family: Roboto, sans-serif;
+}
 
-/*Carousel
 body {
-    height: 100vh;
-    display: grid;
-    place-items: center;
-  }
-  
-.slider {
-    width: 100%;
-    max-width: 800px;
-    height: 350px;
-    position: relative;
-    /* overflow: hidden; 
-  }
-  
-.slide {
-    width: 100%;
-    max-width: 800px;
-    height: 350px;
-    position: absolute;
-    transition: all 0.5s;
-  }
-  
-.slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-.btn {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    padding: 10px;
-    border: none;
-    border-radius: 50%;
-    z-index: 10px;
-    cursor: pointer;
-    background-color: #fff;
-    font-size: 18px;
-  }
-  
-.btn:active {
-    transform: scale(1.1);
-  }
-  
-.btn-prev {
-    top: 45%;
-    left: 2%;
-  }
-  
-.btn-next {
-    top: 45%;
-    right: 2%;
-  }*/
+    background-color: #D6E4E5;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.left-column {
+    width: 45%;
+}
+
+.about {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    padding-right: 7rem;
+}
+
+.projects {
+    width: 45%;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.skill-list li {
+    list-style-type: none;
+    margin-right: 1.2rem;
+}
+
+img {
+    height: 2rem;
+    width: 2rem;
+}
+
